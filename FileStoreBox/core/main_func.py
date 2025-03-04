@@ -95,7 +95,7 @@ async def fetch_files(_, message, encrypt_mode=True, query=None):
                     return
             except Exception:
                 await message.reply_photo(
-                    "https://telegra.ph/file/b7a933f423c153f866699.jpg",
+                    "https://graph.org/file/8b3e847930cb95cfe237b-0d709e2d0da0c6d43b.jpg",
                     caption=script.FORCE_MSG.format(name),
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("🤖 Join Update Channel", url=invite_link.invite_link)],
